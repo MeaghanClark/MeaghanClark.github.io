@@ -1,5 +1,5 @@
 ---
 title: "About"
 ---
-
-This is a placeholder for real text!
+Hi! My name is Meaghan Clark. This website is currently under construction, but please check back :) 
+![woman standing at vista point looking up at the trees](./images/meaghan.jpg)
