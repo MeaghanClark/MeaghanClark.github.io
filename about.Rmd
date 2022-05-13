@@ -2,8 +2,10 @@
 title: "About"
 ---
 
-Hi! My name is Meaghan Clark. This website is currently under construction, but please check back :) 
 
-```{r, out.width = "300px", echo=F, fig.align='center', fig.alt = "[woman standing at vista point looking up at the trees"}
+
+```{r, echo=F, out.width= "65%", out.extra='style="float:left; padding:10px"', fig.alt = "woman standing at vista point looking up at the trees"}
 knitr::include_graphics("./images/meaghan.jpg")
 ```
+
+Hi! My name is Meaghan Clark. This website is currently under construction, but please check back :) 
