@@ -3,8 +3,8 @@ title: "Meaghan I. Clark"
 ---
 ### Welcome
 
-Hello! I am currently a PhD candidate at Michigan State University working with [Gideon Bradburd](http://www.genescape.org/)
- and [Sarah Fitzpatrick](http://swfitz.com/). I am part of the Department of Integrative Biology, the Ecology, Evolution, and Behavior Program, and Kellogg Biological Station. I received my master's with [Jeanne Robertson](https://jrobertsonlab.wordpress.com/) at California State University Northridge. 
+Hello! I am currently a PhD candidate at Michigan State University working with Drs. [Gideon Bradburd](http://www.genescape.org/)
+ and [Sarah Fitzpatrick](http://swfitz.com/). I am part of the Department of Integrative Biology, the Ecology, Evolution, and Behavior Program, and Kellogg Biological Station. I received my master's with [Dr. Jeanne Robertson](https://jrobertsonlab.wordpress.com/) at California State University Northridge. This website is thoroughly under construction! 
 
 
 ```{r, out.width = "500px", echo=F, fig.align='center', fig.alt = "grassy wetlands adjacent to a slow-moving river in early Michigan summer"}
