@@ -4,7 +4,7 @@ title: "About"
 
 
 
-```{r, echo=F, out.width= "65%", out.extra='style="float:left; padding:10px"', fig.alt = "woman standing at vista point looking up at the trees"}
+```{r, echo=F, out.width= "40%", out.extra='style="float:left; padding:10px"', fig.alt = "woman standing at vista point looking up at the trees"}
 knitr::include_graphics("./images/meaghan.jpg")
 ```
 
