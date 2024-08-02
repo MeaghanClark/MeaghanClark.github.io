@@ -2,10 +2,23 @@
 title: "About"
 ---
 
-
-
 ```{r, echo=F, out.width= "40%", out.extra='style="float:left; padding:10px"', fig.alt = "woman standing at vista point looking up at the trees"}
 knitr::include_graphics("./images/meaghan.jpg")
 ```
 
-Hi! My name is Meaghan Clark. This website is currently under construction, but please check back :) 
+```{r, echo=F, out.width= "40%", out.extra='style="float:left; padding:10px"', fig.alt = "woman standing at vista point overlooking a dry valley, with snow-capped mountains in the distance"}
+knitr::include_graphics("./images/jacinto.jpg")
+```
+
+```{r, echo=F, out.width= "40%", out.extra='style="float:left; padding:10px"', fig.alt = "A blandings turtle sticking its head out of a duck-weed covered pond"}
+knitr::include_graphics("./images/blandings.jpg")
+```
+
+  
+  
+I'm a evolutionary geneticist working to apply genomics and population genetic theory to conservation questions. I'm interested in how patterns of population structure change over time and space, and in figuring out the best ways to detect and validate those patterns.
+
+Though I am originally from the San Francisco Bay Area, I have had the pleasure of living and doing science with amazing people in 7+ states/countries. 
+
+**Favorite ecosystems**: arid deserts, ponderosa pine woodlands, tropical wet forest, redwood forests
+

@@ -5,17 +5,19 @@ title: "Research"
 
 \
 
-##### Current projects (more info coming soon!)
+##### Current projects
 
 ###### Pitfalls and promise of conservation genetics in long-lived species
-
+In species with long lifespans, there is a lag between the start of a demographic decline and the resulting decrease in genetic diversity. This lag slows the rate at which diversity is lost, but also makes it difficult to detect recent declines using genomic data. However, the genomes of long-lived individuals provide a snapshot of the genetics of the population at the time of their birth, which could be contrasted with that of younger individuals to learn about recent changes in the population. In the first chapter of my dissertation, I am using individual-based simulations in SLiM, a powerful population genetic simulation program capable of simulating complex scenarios, to understand the usefulness of age information to improve detection of demographic declines. I compare temporal changes in genetic diversity between simulated organisms with and without long lifespans, and under different severities of demographic decline to assess the usefulness of age information. I have found that genetic diversity does remain high in older individuals compared to younger after a demographic decline and that age can be used to improve detection of declines, even when individual age can only be approximated. 
+  
+This work was recently published! You can read more about it [here](https://onlinelibrary.wiley.com/doi/full/10.1111/eva.13754)
 
 ###### Genetic dynamics of small populations of threatened rattlesnakes
-
+Small and fragmented populations are at high risk of extirpation, in part because of elevated inbreeding and subsequent inbreeding depression. A major conservation priority is to identify the mechanisms and extent of inbreeding depression in small populations. The eastern massasauga rattlesnake (*Sistrurus catenatus*) is federally listed as threatened and has experienced significant habitat fragmentation over the past 200 years. My collaborators and I leverage long-term monitoring of two wild populations of eastern massasaugas in Michigan to estimate the extent of inbreeding in each population, identify mechanisms that generate inbreeding, and test for the impact of inbreeding on fitness. Using targeted genomic data and capture locations from over 1000 individuals, we find evidence of inbreeding and link inbreeding to spatial kinship structure within populations. We reconstructed multi-generational pedigrees for each population to measure reproductive output and use long term capture-recapture data to estimate individual apparent survival (i.e., the two major components of fitness). We find evidence of inbreeding depression in both fitness metrics. By combining genomics and long-term monitoring data, we can answer fundamental questions about the nature of inbreeding depression in wild animal populations and provide important conservation context for future management of eastern massasaugas populations.
 
 ###### Genetic and phenotypic divergence in red-eyed treefrogs
-
-
-
+As a M.S. student at California State University, Northridge, I studied the striking phenotypic diversity in red-eyed treefrogs on the Pacific slope of Costa Rica, where frogs in the north have orange flanks and legs, and frogs in the south have purple flanks and legs. Using population genomics and analyses of color pattern, I found that, despite having distinct phenotypes, orange and purple frogs are not distinct genetic groups. Such conflicting patterns can be generated through retained ancestral color polymorphisms, ancient secondary contact, or novel mutations. 
+  
+You can read more about this project [here](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.16350)
 
 

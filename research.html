@@ -13,8 +13,8 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -270,19 +271,80 @@ $(document).ready(function () {
 </div>
 
 
-<p><a href="https://scholar.google.com/citations?user=jAPvZcIAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></p>
+<p><a
+href="https://scholar.google.com/citations?user=jAPvZcIAAAAJ&amp;hl=en&amp;oi=ao">Google
+Scholar</a></p>
 <p><br />
 </p>
-<div id="current-projects-more-info-coming-soon" class="section level5">
-<h5>Current projects (more info coming soon!)</h5>
-<div id="pitfalls-and-promise-of-conservation-genetics-in-long-lived-species" class="section level6">
-<h6>Pitfalls and promise of conservation genetics in long-lived species</h6>
+<div id="current-projects" class="section level5">
+<h5>Current projects</h5>
+<div
+id="pitfalls-and-promise-of-conservation-genetics-in-long-lived-species"
+class="section level6">
+<h6>Pitfalls and promise of conservation genetics in long-lived
+species</h6>
+<p>In species with long lifespans, there is a lag between the start of a
+demographic decline and the resulting decrease in genetic diversity.
+This lag slows the rate at which diversity is lost, but also makes it
+difficult to detect recent declines using genomic data. However, the
+genomes of long-lived individuals provide a snapshot of the genetics of
+the population at the time of their birth, which could be contrasted
+with that of younger individuals to learn about recent changes in the
+population. In the first chapter of my dissertation, I am using
+individual-based simulations in SLiM, a powerful population genetic
+simulation program capable of simulating complex scenarios, to
+understand the usefulness of age information to improve detection of
+demographic declines. I compare temporal changes in genetic diversity
+between simulated organisms with and without long lifespans, and under
+different severities of demographic decline to assess the usefulness of
+age information. I have found that genetic diversity does remain high in
+older individuals compared to younger after a demographic decline and
+that age can be used to improve detection of declines, even when
+individual age can only be approximated.</p>
+<p>This work was recently published! You can read more about it <a
+href="https://onlinelibrary.wiley.com/doi/full/10.1111/eva.13754">here</a></p>
 </div>
-<div id="genetic-dynamics-of-small-populations-of-threatened-rattlesnakes" class="section level6">
-<h6>Genetic dynamics of small populations of threatened rattlesnakes</h6>
+<div
+id="genetic-dynamics-of-small-populations-of-threatened-rattlesnakes"
+class="section level6">
+<h6>Genetic dynamics of small populations of threatened
+rattlesnakes</h6>
+<p>Small and fragmented populations are at high risk of extirpation, in
+part because of elevated inbreeding and subsequent inbreeding
+depression. A major conservation priority is to identify the mechanisms
+and extent of inbreeding depression in small populations. The eastern
+massasauga rattlesnake (<em>Sistrurus catenatus</em>) is federally
+listed as threatened and has experienced significant habitat
+fragmentation over the past 200 years. My collaborators and I leverage
+long-term monitoring of two wild populations of eastern massasaugas in
+Michigan to estimate the extent of inbreeding in each population,
+identify mechanisms that generate inbreeding, and test for the impact of
+inbreeding on fitness. Using targeted genomic data and capture locations
+from over 1000 individuals, we find evidence of inbreeding and link
+inbreeding to spatial kinship structure within populations. We
+reconstructed multi-generational pedigrees for each population to
+measure reproductive output and use long term capture-recapture data to
+estimate individual apparent survival (i.e., the two major components of
+fitness). We find evidence of inbreeding depression in both fitness
+metrics. By combining genomics and long-term monitoring data, we can
+answer fundamental questions about the nature of inbreeding depression
+in wild animal populations and provide important conservation context
+for future management of eastern massasaugas populations.</p>
 </div>
-<div id="genetic-and-phenotypic-divergence-in-red-eyed-treefrogs" class="section level6">
+<div id="genetic-and-phenotypic-divergence-in-red-eyed-treefrogs"
+class="section level6">
 <h6>Genetic and phenotypic divergence in red-eyed treefrogs</h6>
+<p>As a M.S. student at California State University, Northridge, I
+studied the striking phenotypic diversity in red-eyed treefrogs on the
+Pacific slope of Costa Rica, where frogs in the north have orange flanks
+and legs, and frogs in the south have purple flanks and legs. Using
+population genomics and analyses of color pattern, I found that, despite
+having distinct phenotypes, orange and purple frogs are not distinct
+genetic groups. Such conflicting patterns can be generated through
+retained ancestral color polymorphisms, ancient secondary contact, or
+novel mutations.</p>
+<p>You can read more about this project <a
+href="https://onlinelibrary.wiley.com/doi/full/10.1111/mec.16350">here</a></p>
 </div>
 </div>
 
