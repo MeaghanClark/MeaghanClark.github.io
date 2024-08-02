@@ -12,7 +12,7 @@ title: "Research"
 
 In species with long lifespans, there is a lag between the start of a demographic decline and the resulting decrease in genetic diversity. This lag slows the rate at which diversity is lost, but also makes it difficult to detect recent declines using genomic data. However, the genomes of long-lived individuals provide a snapshot of the genetics of the population at the time of their birth, which could be contrasted with that of younger individuals to learn about recent changes in the population. In the first chapter of my dissertation, I am using individual-based simulations in SLiM, a powerful population genetic simulation program capable of simulating complex scenarios, to understand the usefulness of age information to improve detection of demographic declines. I compare temporal changes in genetic diversity between simulated organisms with and without long lifespans, and under different severities of demographic decline to assess the usefulness of age information. I have found that genetic diversity does remain high in older individuals compared to younger after a demographic decline and that age can be used to improve detection of declines, even when individual age can only be approximated.
 
-This work was recently published! You can read more about it [here](https://onlinelibrary.wiley.com/doi/full/10.1111/eva.13754)
+This work was recently published! You can read more about it [here](https://onlinelibrary.wiley.com/doi/full/10.1111/eva.13754).
 
 \
 
@@ -26,4 +26,4 @@ Small and fragmented populations are at high risk of extirpation, in part becaus
 
 As a M.S. student at California State University, Northridge, I studied the striking phenotypic diversity in red-eyed treefrogs on the Pacific slope of Costa Rica, where frogs in the north have orange flanks and legs, and frogs in the south have purple flanks and legs. Using population genomics and analyses of color pattern, I found that, despite having distinct phenotypes, orange and purple frogs are not distinct genetic groups. Such conflicting patterns can be generated through retained ancestral color polymorphisms, ancient secondary contact, or novel mutations.
 
-You can read more about this project [here](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.16350)
+You can read more about this project [here](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.16350).
