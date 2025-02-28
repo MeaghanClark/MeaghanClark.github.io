@@ -5,15 +5,15 @@ title: "Meaghan I. Clark"
   
 ### Welcome
 
-Hello! I am currently a PhD candidate at Michigan State University working with Drs. [Gideon Bradburd](http://www.genescape.org/)
- and [Sarah Fitzpatrick](http://swfitz.com/). I am part of the Department of Integrative Biology, the Ecology, Evolution, and Behavior Program, and Kellogg Biological Station. I received my master's with [Dr. Jeanne Robertson](https://jrobertsonlab.wordpress.com/) at California State University Northridge. I study small populations, and how they have persisted in the face of anthropogenic changes. 
+Hello! I am currently an NSF Postdoctoral Scholar at University of California, Santa Cruz. I'm working in the [Global Change Research Group](https://globalchange.sites.ucsc.edu/) to learn about evolutionary resiliency of giant kelp to it's rapidly changing environment.  I completed my PhD at Michigan State University working with Drs. [Gideon Bradburd](http://www.genescape.org/)
+ and [Sarah Fitzpatrick](http://swfitz.com/). I received my master's with [Dr. Jeanne Robertson](https://jrobertsonlab.wordpress.com/) at California State University Northridge. I study small populations, and how they have persisted in the face of anthropogenic changes. 
 
 
 ```{r, out.width = "500px", echo=F, fig.align='center', fig.alt = "grassy wetlands adjacent to a slow-moving river in early Michigan summer"}
 knitr::include_graphics("./images/wetlands.jpg")
 ```
 
-```{r, out.width = "500px", echo=F, fig.align='center', fig.alt = "woman standing in the desert, smiling, wearing a wide-brimmed hat"}
+```{r, out.width = "500px", echo=F, fig.align='center', fig.alt = "woman standing in the desert, smiling, holding two lizards, and wearing a wide-brimmed hat"}
 knitr::include_graphics("./images/lizards.jpg")
 ```
 
