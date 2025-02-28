@@ -9,6 +9,7 @@ title: "Research"
 #### Dynamics of evolutionary rescue in giant kelp
 
 Organisms are facing new environmental threats because of climate change. Understanding why and how some populations persist despite stressful conditions is paramount to protecting biodiversity. Through an NSF PRFB, I am using genetic tools to understand adaptation to heat stress in giant kelp. Giant kelp is an ecologically important species under threat from climate change. During ocean warming events, giant kelp undergo extreme declines. Many populations recover shortly afterwards, but it is unclear how resilient kelp will be as ocean temperatures continue to rise. Using temporal samples from before and after a marine heat wave, we will measure the impact of warming on kelp populations and identify genetic variants underlying heat tolerance. These results will provide a foundation for the understanding of how wild populations adapt and persist and inform the management of giant kelp. 
+
 \
 
 #### Genetic dynamics of small populations of threatened rattlesnakes
