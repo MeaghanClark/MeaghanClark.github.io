@@ -11,6 +11,8 @@ navbar:
       href: research.html
     - text: "Contact"
       href: contact.html
+    - text: "CV"
+      href: files/MIClark_CV_min_Jan_2025.pdf
 output:
   html_document:
     css: styles.css
