@@ -14,13 +14,13 @@ website:
   navbar:
     right:
       - text: "CV"
-        href: MIClark_CV_min_Jan_2025.pdf
+        href: MIClark_CV_full-2.pdf
     left:
       - about.qmd
       - research.qmd
       - contact.qmd
   page-footer: 
-    left: ":)"
+    left: "Copyright 2025, Meaghan Clark"
 
 format:
   html:
