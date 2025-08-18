@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Google Scholar\n\n\n\nDynamics of evolutionary rescue in giant kelp\nOrganisms are facing new environmental threats because of climate change. Understanding why and how some populations persist despite stressful conditions is paramount to protecting biodiversity. Through an NSF PRFB, I am using genetic tools to understand adaptation to heat stress in giant kelp. Giant kelp is an ecologically important species under threat from climate change. During ocean warming events, giant kelp undergo extreme declines. Many populations recover shortly afterwards, but it is unclear how resilient kelp will be as ocean temperatures continue to rise. Using temporal samples from before and after a marine heat wave, we will measure the impact of warming on kelp populations and identify genetic variants underlying heat tolerance. These results will provide a foundation for the understanding of how wild populations adapt and persist and inform the management of giant kelp.\n\n\n\n\nGenetic dynamics of small populations of threatened rattlesnakes\nSmall and fragmented populations are at high risk of extirpation, in part because of elevated inbreeding and subsequent inbreeding depression. A major conservation priority is to identify the mechanisms and extent of inbreeding depression in small populations. The eastern massasauga rattlesnake (Sistrurus catenatus) is federally listed as threatened and has experienced significant habitat fragmentation over the past 200 years. My collaborators and I leverage long-term monitoring of two wild populations of eastern massasaugas in Michigan to estimate the extent of inbreeding in each population, identify mechanisms that generate inbreeding, and test for the impact of inbreeding on fitness. Using targeted genomic data and capture locations from over 1000 individuals, we find evidence of inbreeding and link inbreeding to spatial kinship structure within populations. We reconstructed multi-generational pedigrees for each population to measure reproductive output and use long term capture-recapture data to estimate individual apparent survival (i.e., the two major components of fitness). We find evidence of inbreeding depression in both fitness metrics. By combining genomics and long-term monitoring data, we can answer fundamental questions about the nature of inbreeding depression in wild animal populations and provide important conservation context for future management of eastern massasaugas populations.\nThis work was recently published! You can read more about it here.\n\n\n\n\nPitfalls and promise of conservation genetics in long-lived species\nIn species with long lifespans, there is a lag between the start of a demographic decline and the resulting decrease in genetic diversity. This lag slows the rate at which diversity is lost, but also makes it difficult to detect recent declines using genomic data. However, the genomes of long-lived individuals provide a snapshot of the genetics of the population at the time of their birth, which could be contrasted with that of younger individuals to learn about recent changes in the population. In the first chapter of my dissertation, I am using individual-based simulations in SLiM, a powerful population genetic simulation program capable of simulating complex scenarios, to understand the usefulness of age information to improve detection of demographic declines. I compare temporal changes in genetic diversity between simulated organisms with and without long lifespans, and under different severities of demographic decline to assess the usefulness of age information. I have found that genetic diversity does remain high in older individuals compared to younger after a demographic decline and that age can be used to improve detection of declines, even when individual age can only be approximated.\nRead more here.\n\n\n\n\nGenetic and phenotypic divergence in red-eyed treefrogs\nAs a M.S. student at California State University, Northridge, I studied the striking phenotypic diversity in red-eyed treefrogs on the Pacific slope of Costa Rica, where frogs in the north have orange flanks and legs, and frogs in the south have purple flanks and legs. Using population genomics and analyses of color pattern, I found that, despite having distinct phenotypes, orange and purple frogs are not distinct genetic groups. Such conflicting patterns can be generated through retained ancestral color polymorphisms, ancient secondary contact, or novel mutations.\nYou can read more about this project here."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "email: miclark(at)ucsc(dot)edu\nbsky: @meaghansaurus"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Favorite ecosystems: arid deserts, ponderosa pine woodlands, kelp forests\nFavorite critters: Fringe-toed lizards, indoor cats, leeches\nI’m a evolutionary geneticist working to apply genomics and population genetic theory to conservation and management questions. I’m interested in how patterns of population structure change over time and space, and in figuring out the best ways to detect and validate those patterns.\nThough I am originally from the San Francisco Bay Area, I have had the pleasure of living and doing science with amazing people in 7+ states/countries."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "how do you wanna call your blog?",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 9, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Meaghan I. Clark",
+    "section": "",
+    "text": "Hello! I am currently an NSF Postdoctoral Scholar at University of California, Santa Cruz. I’m working in the Global Change Research Group to learn about evolutionary resiliency of giant kelp to it’s rapidly changing environment.\nI completed my PhD at Michigan State University working with Drs. Gideon Bradburd and Sarah Fitzpatrick. I received my master’s with Dr. Jeanne Robertson at California State University Northridge. I study small populations, and how they have persisted in the face of anthropogenic changes."
+  },
+  {
+    "objectID": "index.html#meaghan-i.-clark",
+    "href": "index.html#meaghan-i.-clark",
+    "title": "Meaghan I. Clark",
+    "section": "",
+    "text": "Hello! I am currently an NSF Postdoctoral Scholar at University of California, Santa Cruz. I’m working in the Global Change Research Group to learn about evolutionary resiliency of giant kelp to it’s rapidly changing environment.\nI completed my PhD at Michigan State University working with Drs. Gideon Bradburd and Sarah Fitzpatrick. I received my master’s with Dr. Jeanne Robertson at California State University Northridge. I study small populations, and how they have persisted in the face of anthropogenic changes."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]
