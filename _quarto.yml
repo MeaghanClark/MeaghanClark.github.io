@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "Meaghan I. Clark"
+  search: true
+  cookie-consent: false
+  twitter-card: true
+  open-graph: true
+  site-url: https://<yourwebsite>.github.io
+  navbar:
+    right:
+      - text: "CV"
+        href: MIClark_CV_min_Jan_2025.pdf
+    left:
+      - about.qmd
+      - research.qmd
+      - contact.qmd
+  page-footer: 
+    left: ":)"
+
+format:
+  html:
+    theme: lux
+    css: styles.css
