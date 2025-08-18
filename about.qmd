@@ -9,10 +9,6 @@ I'm a evolutionary geneticist working to apply genomics and population genetic t
 
 Though I am originally from the San Francisco Bay Area, I have had the pleasure of living and doing science with amazing people in 7+ states/countries. 
 
-```{r, echo=F, out.width= "40%", out.extra='style="float:left; padding:10px"', fig.alt = "woman standing at vista point, smiling, in front of a crater lake"}
-knitr::include_graphics("./images/meaghan2.jpg")
-```
-
 ```{r, echo=F, out.width= "40%", out.extra='style="float:left; padding:10px"', fig.alt = "woman standing at vista point overlooking a dry valley, with snow-capped mountains in the distance"}
 knitr::include_graphics("./images/jacinto.jpg")
 ```
