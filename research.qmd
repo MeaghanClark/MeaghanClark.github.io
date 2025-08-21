@@ -24,10 +24,6 @@ Small and fragmented populations are at high risk of extirpation, in part becaus
 
 This work was recently published! You can read more about it [here](https://www.pnas.org/doi/10.1073/pnas.2501745122).
 
-::: {.column-margin}
-![photo credit: Andres Vega](images/retf.jpg){fig-align="left" fig-alt="two frogs, in amplexus, sitting on a leaf. Their blue and yellow flanks are visible."}
-:::
-
 \
 
 #### Pitfalls and promise of conservation genetics in long-lived species
