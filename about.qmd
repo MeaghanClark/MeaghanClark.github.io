@@ -9,4 +9,4 @@ Though I am originally from the San Francisco Bay Area, I have had the pleasure 
 **Favorite ecosystems**: arid deserts, ponderosa pine woodlands, kelp forests \
 **Favorite critters**: Fringe-toed lizards, indoor cats, leeches
 
-![](images/jacinto.jpg){fig-alt="A woman smiling on top of a Mountain"}
+![photo credit: Chelsea Brisson](images/jacinto.jpg){fig-alt="A woman smiling on top of a Mountain"}
