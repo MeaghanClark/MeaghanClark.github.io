@@ -14,7 +14,7 @@ website:
   navbar:
     right:
       - text: "CV"
-        href: MIClark_CV_full-2.pdf
+        href: MIClark_CV_website.pdf
     left:
       - about.qmd
       - research.qmd
